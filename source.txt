@@ -1,0 +1,1 @@
+http://www.java-allandsundry.com/2014/05/spring-rest-controller-with-angularjs.html

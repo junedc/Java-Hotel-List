@@ -1,0 +1,23 @@
+
+<html xmlns:th="http://www.thymeleaf.org" layout:decorator="layout/sitelayout">
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h1 class="well well-small"><a href="home">Hotels</a></h1>
+        </div>
+    </div>
+    <div layout:fragment="content">
+        <div id="home" ng-app="hotelsApp">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div>
+                        <div class="ui-view"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
